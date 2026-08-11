@@ -1,8 +1,8 @@
 import {View, Text} from 'react-native'
-import { tileSeries, textStyleTile } from '@/components/Tile/Tile'
+import { tileSeries, textStyleTile } from '@/components/Tile/TileStyle'
 
-const Title = "Title"
-const Body = "This is a example of notes tab. It demonstrates the design between A colour palette set, with the objects in the screen."
+const Title = "Title";
+const Body = "This is a example of notes tab. It demonstrates the design between A colour palette set, with the objects in the screen.";
 
 
 export default function Tile(){
@@ -14,6 +14,5 @@ export default function Tile(){
             <View style={textStyleTile.BodyDesign}><Text style={textStyleTile.TextBody}>{Body}</Text></View>
         </View>
     </View>
-    )
-}
+    )}
 
